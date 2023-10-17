@@ -53,102 +53,21 @@
     margin-right: -3px;
 }
 
-.btn {
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-right: -2px;
-}
-
-.cta-btn {
-    font-size: 1.6rem;
-    background-color: #ffc845;
-    padding: 1.5rem 3rem;
-    color: #fff;
-    border-radius: .4rem;
-    transition: 0.3s;
-}
-.cta-btn:hover,
-.cta-btn:focus {
-    color: #fff;
-    background-color: #3bcc75;
-    transition: 0.3s;
-    scale: 110%;
-}
-
 /* Fin Hero */
 
-.global {
-    text-align: center;
-    margin-top: 3.9rem;
+.nosotros{
+    margin: 10em;
+    display: block;
 }
 
-.dis-sto .global {
-    margin-top: 6.9rem;
+.info-container{
+    margin: 10em;
+    text-justify: center;
 }
 
-.global .circle {
-    color: #3bcc75;
-    margin: 2.4rem 0;
+.info-title{
+    color: #ffc845;
 }
-
-.hea-dark {
-    color: #252525;
-    letter-spacing: .7rem;
-    margin-right: -.7rem;
-}
-
-.global .h2-sub {
-    letter-spacing: -1px;
-    line-height: .42;
-}
-
-.res-info {
-    text-align: center;
-}
-
-.res-des {
-    margin-bottom: 3rem;
-}
-
-.res-des p {
-    line-height: 1.6;
-    margin-bottom: 2.4rem
-}
-
-
-/*menu*/
-
-.taste {
-    background: url("../images/parrilla2.jpg") center no-repeat;
-    background-size: cover;
-}
-
-.bt {
-    min-height: 65vh;
-    display: flex;
-    align-items: center;
-}
-
-
-/*platillos*/
-
-.image-group {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1.5rem;
-}
-
-.disco .res-des {
-    padding-top: 3rem;
-    margin-bottom: 0;
-}
-
-.pb {
-    background: url("../images/parrillamesa.jpg") center no-repeat;
-    background-size: cover;
-}
-
 
 /*footer*/
 footer {
