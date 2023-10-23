@@ -36,6 +36,22 @@
         </div>
     </header>
 
+    <script>
+
+        const selectElement = function(element) {
+            return document.querySelector(element);
+        }
+
+
+        let menuToggle = selectElement('.menu-toggle');
+        let body = selectElement('body');
+
+        menuToggle.addEventListener('click', function(){
+            body.classList.toggle('open');
+        })
+
+    </script>
+
 <main>    
     <div>
     <section class="nosotros">
@@ -43,25 +59,34 @@
             <section class="info-container">
                 <h2 class="info-title">Yellow Group</h2>
                 <p class="info">Yellow Group es una microempresa destinada.</p>
-                <p class="info">Fecha: 30 de agosto de 2023</p>
             </section>
         
             <section class="info-container">
-                <h2 class="info-title">Objetivos</h2>
-                <p class="info">Yellow Group es una microempresa destinada.</p>
-                <p class="info">Fecha: 30 de agosto de 2023</p>
+                <h2 class="info-title">Nuestra Misión</h2>
+                <p class="info">Buscamos crear parrillas de alta calidad y durabilidad, que sean accesibles para todos los amantes de los sabrosos asados.</p>
             </section>
 
             <section class="info-container">
-                <h2 class="info-title">Valores</h2>
-                <p class="info">Yellow Group es una microempresa destinada.</p>
-                <p class="info">Fecha: 30 de agosto de 2023</p>
+                <h2 class="info-title">Nuestra Visión</h2>
+                <p class="info">
+                    Yellow Group busca crear una reconocida marca de parrillas hechas con llantas de automóvil, que sean populares por su diseño creativo y sostenibilidad ambiental.
+                    <br>
+                    Además, sostenemos como objetivo nuestra expansión a nivel internacional.
+                </p>
             </section>
 
             <section class="info-container">
-                <h2 class="info-title">Otro</h2>
-                <p class="info">Yellow Group es una microempresa destinada.</p>
-                <p class="info">Fecha: 30 de agosto de 2023</p>
+                <h2 class="info-title">Nuestros Valores</h2>
+                <p class="info">
+                    Como empresa, nuestros valores principales son la <span>creatividad</span> y la <span>innovación</span> al reciclar llantas de automóviles para convertirlas en parrillas.
+                    <br>
+                    Además, también valoramos la <span>sostenibilidad</span> y el <span>respeto</span> al medio ambiente al utilizar materiales reciclados.
+                </p>
+            </section>
+
+            <section class="info-container">
+                <h2 class="info-title">Nuestro Eslogan</h2>
+                <p class="info">¡Rueda con el sabor, rueda con Yellow Group!</p>
             </section>
         </div>
     </section>
@@ -70,7 +95,7 @@
 </main>
 
     <footer>
-        <p>&copy; 2023 Noticias de Parrillas con Llantas de Autos. Todos los derechos reservados.</p>
+        <p>&copy; 2023 Yellow Group. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
