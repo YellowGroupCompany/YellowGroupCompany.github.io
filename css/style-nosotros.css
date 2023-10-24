@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 .nosotros{
-    margin: 10em;
+    margin: 2em 10em 2em 10em;
     display: block;
 }
 
@@ -12,11 +12,12 @@
 }
 
 .info-title{
-    font-family: "Inter";
-    font-weight: 600;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 900;
     color: #ffc845;
     font-size: 5em;
     justify-self: center;
+    -webkit-text-stroke: #000 1.5px;
 }
 
 .info{

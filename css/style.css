@@ -17,8 +17,8 @@
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
     color: #fbfefd;
-    font-weight: 600;
-    line-height: .4;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px #1e1e1e;
 }
 
 .fil {
@@ -34,6 +34,7 @@
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 0.5rem;
+    text-shadow: 1.5px 1.5px 1.5px #1e1e1e;
 }
 
 .circle {
