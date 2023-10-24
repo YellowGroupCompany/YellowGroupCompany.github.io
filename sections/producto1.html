@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parrilla Simple</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/style-producto.css">
+        <link rel="stylesheet" href="/css/scrollbar.css">
+    </head>
+
+    <body>
+
+        <!-- Inicio del Header + Hamburger Menu (Responsive) -->
+
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <a href="index.html" class="logo"><img src="/images/logo.svg" alt=""></a>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/sections/nosotros.html" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/sections/tienda.html" class="nav-link active">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <script>
+    
+            const selectElement = function(element) {
+                return document.querySelector(element);
+            }
+    
+    
+            let menuToggle = selectElement('.menu-toggle');
+            let body = selectElement('body');
+    
+            menuToggle.addEventListener('click', function(){
+                body.classList.toggle('open');
+            })
+    
+        </script>
+
+        <!-- Fin del Header + Hamburger Menu (Responsive) -->
+
+        <main>
+            <section class="main-info">
+                <div class="head-info">
+                    <h1 class="p-title">Parrilla simple</h1>
+                    <img class="p-img" src="/images/parrilla1.jpg">
+                </div>
+                
+                <div class="side-info">
+                    <h3></p>
+
+                    <div class="precio">
+                        <h2 class="text">Precio:</h2>
+                        <p class="price">$80</p>
+                    </div>
+                    
+                    <a class="comprar" href="#">Añadir al carrito</a>
+                    
+                    <div class="star-rate">
+                        <h2 class="text">Puntuación:</h2>
+                        <div class="stars">
+                            <img class="star" src="/images/star.svg">
+                            <img class="star" src="/images/star.svg">
+                            <img class="star" src="/images/star.svg">
+                            <img class="star" src="/images/star.svg">
+                            <img class="star" src="/images/star.svg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </body>
+</html>
