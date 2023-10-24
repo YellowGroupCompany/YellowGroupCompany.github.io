@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
+main{
+    padding: 3em 1em 1em 1em;
+}
+
 .main-info{
     display: flex;
     align-content: center;
-    justify-content: left;
+    justify-content: space-evenly;
     padding: 4em;
     margin: 4em;
     gap: 10px;
@@ -36,7 +40,7 @@
     display: block;
     justify-content: left;
     align-content: center;
-    width: 70%;
+    width: 40%;
 }
 
 .precio{
@@ -46,29 +50,29 @@
 
 .text{
     font-family: "Inter";
-    font-size: 2em;
+    font-size: 3em;
     margin: 1em;
 }
 
 .price{
     font-family: "Inter";
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .comprar{
     font-family: "Inter";
-    font-size: 2em;
+    font-size: 3em;
     margin: 1em;
     padding: 0.5em;
     border-radius: 5px;
     background-color: #000;
     color: #fff;
-    transition: .15s;
+    transition: .25s;
 }
 
 .comprar:hover{
-    transition: .15s;
-    opacity: 80%;
+    transition: .25s;
+    opacity: 70%;
 }
 
 .stars{
@@ -76,12 +80,16 @@
     width: 150px;
     height: 75px;
     align-content: center;
+    justify-content: left;
+    margin-left: 2em;
 }
 
 .star{
     background-image: url(/images/star.svg);
+    transition: .25s;
 }
 
 .star:hover{
-    background-color: #ffff00;
+    background-image: url(/images/star-full.svg);
+    transition: .25s;
 }
