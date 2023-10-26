@@ -61,7 +61,7 @@ ul{
 .social-icons i:focus {
     color: #ffc845;
     transition: 0.3s;
-    -webkit-text-stroke: #8b6d26;
+    -webkit-text-stroke: #8b6d26 .006px;
     scale: 110%;
 }
 
@@ -129,9 +129,10 @@ footer {
     background-color: #121212;
     color: #fff;
     text-align: center;
-    position: relative;
-    bottom: -13vh;
+    position: absolute;
+    bottom: 0;
     display: grid;
+    width: 100vw;
 }
 
 .footer-content {
