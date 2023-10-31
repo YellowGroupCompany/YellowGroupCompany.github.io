@@ -68,6 +68,7 @@ main{
     background-color: #000;
     color: #fff;
     transition: .25s;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .comprar:hover{
@@ -75,21 +76,42 @@ main{
     opacity: 70%;
 }
 
-.stars{
-    display: flex;
-    width: 150px;
-    height: 75px;
-    align-content: center;
+.rating-box{
+    display: grid;
     justify-content: left;
-    margin-left: 2em;
+    margin: 2em;
 }
 
-.star{
-    background-image: url(/images/star.svg);
-    transition: .25s;
+h2{
+    font-family: "Inter";
+    font-size: 3em;
+    margin-bottom: .5em;
 }
 
-.star:hover{
-    background-image: url(/images/star-full.svg);
-    transition: .25s;
+.rating-box {
+    position: relative;
+    background: #fff;
+    padding: 25px 50px 35px;
+    border-radius: 25px;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rating-box .stars {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.stars i {
+    color: #e6e6e6;
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.stars .filled {
+    color: #ff9c1a;
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.2s ease;
 }

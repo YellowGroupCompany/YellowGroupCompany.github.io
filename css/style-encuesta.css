@@ -1,0 +1,5 @@
+main{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, #ffe553 0%, #ffffb4 50%, #ffffe0 99%, transparent 100%);
+}

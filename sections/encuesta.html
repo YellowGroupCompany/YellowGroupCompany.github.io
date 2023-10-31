@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/style-encuesta.css">
+        <link rel="stylesheet" href="/css/scrollbar.css">
+        <title>YellowGroup</title>
+    </head>
+
+    <body>
+        <header>
+			<div class="container">
+				<nav class="nav">
+					<div class="menu-toggle">
+						<i class="fas fa-bars"></i>
+						<i class="fas fa-times"></i>
+					</div>
+					<a href="#" class="logo"><img src="/images/logo.svg" alt=""></a>
+					<ul class="nav-list">
+						<li class="nav-item">
+							<a href="/index.html" class="nav-link">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a href="/sections/nosotros.html" class="nav-link">Nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a href="/sections/tienda.html" class="nav-link active">Tienda</a>
+						</li>
+						<li class="nav-item">
+							<a href="/sections/contacto.html" class="nav-link ">Contacto</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+        <script>
+            const selectElement = function(element) {
+                return document.querySelector(element);
+            }
+    
+            let menuToggle = selectElement('.menu-toggle');
+            let body = selectElement('body');
+    
+            menuToggle.addEventListener('click', function(){
+                body.classList.toggle('open');
+            })
+        </script>
+
+        <!-- Fin Header -->
+
+        <main>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdlzyp0y8cdProedUchgA4dOohjBNaBBgUUbDG8iOPk9PeoFQ/viewform?embedded=true" width="640" height="2704" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </main>
+    </body>
+</html>
