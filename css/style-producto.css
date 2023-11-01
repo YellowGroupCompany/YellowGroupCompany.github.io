@@ -111,14 +111,16 @@ h2{
     transition: color 0.2s ease;
 }
 
-.stars i:hover {
+.stars .hovered {
     color: #ff9c1a;
     text-shadow: 2px 2px #646464;
     transition: color 0.2s ease;
+    opacity: 70%;
 }
 
 .stars .filled {
     color: #ff9c1a;
+    text-shadow: 2px 2px #646464;
     font-size: 35px;
     cursor: pointer;
     transition: color 0.2s ease;

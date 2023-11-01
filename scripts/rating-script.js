@@ -22,4 +22,21 @@ stars.forEach((star, index1) => {
             console.log(index1)
         });
     });
-})
+
+    star.addEventListener("mouseenter", () => {
+        stars.forEach((star, index2) => {
+            index1 >= index2 ? star.classList.add('hovered') : star.classList.remove('hovered');
+            if (index1 >= index2 && !star.classList.contains('filled')){
+                star.classList.add('hovered')
+            } else {
+                star.classList.remove('hovered')
+            }
+        });
+    });
+
+    star.addEventListener("mouseleave", () => {
+        stars.forEach((star, index2) => {
+            index1 === index2 ? star.classList.remove('hovered') : star.classList.remove('hovered');
+        });
+    })
+});
