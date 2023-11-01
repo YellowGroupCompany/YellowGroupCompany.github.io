@@ -3,6 +3,8 @@
 
 main{
     padding: 3em 1em 1em 1em;
+    display: flex;
+    justify-content: center;
 }
 
 .main-info{
@@ -103,9 +105,15 @@ h2{
 }
 
 .stars i {
-    color: #e6e6e6;
+    color: #dddddd;
     font-size: 35px;
     cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.stars i:hover {
+    color: #ff9c1a;
+    text-shadow: 2px 2px #646464;
     transition: color 0.2s ease;
 }
 
@@ -114,4 +122,21 @@ h2{
     font-size: 35px;
     cursor: pointer;
     transition: color 0.2s ease;
+}
+
+/* Footer */
+
+footer {
+    padding: 4rem 0 4rem 0;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    width: 100vw;
+}
+
+.footer-content {
+    overflow: hidden;
 }
