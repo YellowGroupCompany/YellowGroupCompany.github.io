@@ -51,6 +51,7 @@ h4, legend{
     border-radius: 10px;
     color: #787878;
     transition: .3s;
+    resize: none;
 }
 
 .news-input:hover{

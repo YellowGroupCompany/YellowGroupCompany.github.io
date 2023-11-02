@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="/css/style-producto.css">
         <link rel="stylesheet" href="/css/scrollbar.css">
         <script src="/scripts/rating-script.js" defer></script>
+        <script src="/scripts/unavailable.js" defer></script>
     </head>
 
     <body>
@@ -66,31 +67,40 @@
 
             <section class="main-info">
                 <div class="head-info">
-                    <h1 class="p-title">Parrilla simple</h1>
+                    <h1 class="p-title">Yellow-Grill Classic</h1>
                     <img class="p-img" src="/images/parrilla1.jpg">
                 </div>
                 
                 <div class="side-info">
                     <h3 class="text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis laboriosam quas et tempora odit modi,
-                        assumenda nihil quisquam nobis, accusantium molestiae consequatur magni, dolore eaque nostrum illo sequi earum magnam.
+                        Este producto incluye:<br>
+                        - Parrilla desmontable<br>
+                        - Porta vasos<br>
+                        - Mesa para cortar<br>
+                        - 5 patas (4 para la parrilla y 1 para la mesa)<br>
                     </h3>
 
                     <div class="precio">
                         <h2 class="text">Precio:</h2>
-                        <p class="price">$80</p>
+                        <p class="price">$20.000,00</p>
                     </div>
                     
                     <a class="comprar" href="#">Añadir al carrito</a>
                     
                         <div class="rating-box">
-                            <h2>Puntuación:</h2>
+                            <h3>Puntuación:</h3>
                             <div class="stars">
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3>Comentario:</h3>
+                            <textarea class="input-box" placeholder="Opcional"></textarea>
+                            <div class="rst-sbmt">
+                                <a id="reset" class="btn" href="#reset">Borrar</a>
+                                <a id="submit" class="btn" href="#sumbit">Publicar</a>
                             </div>
                         </div>
 
@@ -100,9 +110,6 @@
 
         </main>
 
-        <footer>
-            <p>&copy; 2023 Yellow Group. Todos los derechos reservados.</p>
-        </footer>
 
     </body>
 </html>
