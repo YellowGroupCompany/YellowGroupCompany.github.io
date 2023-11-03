@@ -18,16 +18,14 @@ stars.forEach((star, index1) => {
             // and remove the "active" class from any stars with a higher index
         
             index1 >= index2 ? star.classList.add('filled') : star.classList.remove('filled');
-
-            console.log(index1)
         });
     });
 
     star.addEventListener("mouseenter", () => {
         stars.forEach((star, index2) => {
             index1 >= index2 ? star.classList.add('hovered') : star.classList.remove('hovered');
-            if (index1 >= index2 && !star.classList.contains('filled')){
-                star.classList.add('hovered')
+            if (index1 >= index2 && !star.classList.contains('filled')) {
+                star.classList.add('hovered') 
             } else {
                 star.classList.remove('hovered')
             }
@@ -36,7 +34,7 @@ stars.forEach((star, index1) => {
 
     star.addEventListener("mouseleave", () => {
         stars.forEach((star, index2) => {
-            index1 === index2 ? star.classList.remove('hovered') : star.classList.remove('hovered');
+            index1 == index2 ? star.classList.remove('hovered', 'un-hovered') : star.classList.remove('hovered', 'un-hovered');
         });
     })
 });

@@ -168,17 +168,6 @@ ul{
 
 /* Footer */
 
-footer {
-    padding: 4rem 0 1rem 0;
-    background-color: #121212;
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    display: grid;
-    width: 100vw;
-}
-
 .footer-content {
     overflow: hidden;
 }
@@ -193,4 +182,51 @@ footer {
 
 p {
     line-height: 1.5;
+}
+
+@media screen and (max-width: 900px) {
+    main{
+        display: grid;
+        justify-content: center;
+    }
+
+    .left{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+    .help-form{
+        display: grid;
+        justify-content: center;
+    }
+
+    legend{
+        font-size: 3em;
+    }
+
+    .phone-circle{
+        display: grid;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: #3bcc75;
+        margin: 4rem 1.6rem 2rem 1.6rem;
+    }
+
+    .right{
+        width: 100vw;
+    }
+
+    footer {
+        margin-top: 7em;
+        padding: 4rem 0 1rem 0;
+        background-color: #121212;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        display: grid;
+        width: 100vw;
+    }
+    
 }
