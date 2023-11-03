@@ -159,8 +159,9 @@
 
 .image-group {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1.5rem;
+    justify-content: center;
 }
 
 .disco .res-des {
@@ -289,7 +290,7 @@ footer {
 
     .image-group{
         justify-content: center;
-        grid-template-columns: 42vw 42vw;
+        grid-template-columns: 1fr 1fr;
     }
 
     .taste{
