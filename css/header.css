@@ -129,11 +129,16 @@ header {
     transition: 0.3s;
     align-self: flex-start;
     padding-top: .5em;
+    width: 75px;
 }
 
 .logo:hover{
     scale: 130%;
     transition: 0.3s;
+}
+
+.logosvg{
+    width: 100%;
 }
 
 .nav-item {
