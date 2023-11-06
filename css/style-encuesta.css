@@ -1,6 +1,61 @@
 main{
-    display: flex;
+    display: grid;
     justify-content: center;
     background-image: linear-gradient(to top, #ffd153 0%, #ffebb4 50%, #ffffe0 90%, transparent 100%);
     margin-top: 7em;
+}
+
+iframe{
+    border-radius: 10px;
+    margin-bottom: 4em;
+    justify-self: center;
+}
+
+.form{
+    margin: 0;
+}
+
+.encuesta{
+    display: grid;
+    width: 70vw;
+    justify-content: center;
+}
+
+.answers{
+    display: grid;
+    justify-content: center;
+    width: 80vw;
+    padding: 1em;
+}
+
+.boton{
+    justify-self: center;
+    padding: 1em 2em 1em 2em;
+    font-size: 1.6em;
+    background-color: #ff7e2e;
+    color: white;
+    margin-bottom: 4em;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.boton:hover{
+    scale: 110%;
+    transition: 0.2s;
+}
+
+.hide{
+    display: none;
+}
+
+.charts{
+    display: none;
+}
+
+.viewable{
+    display: grid;
+    width: 70vw;
+    justify-content: center;
 }

@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="/css/header.css">
         <link rel="stylesheet" href="/css/style-encuesta.css">
         <link rel="stylesheet" href="/css/scrollbar.css">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         <title>YellowGroup</title>
     </head>
 
@@ -53,7 +54,29 @@
         <!-- Fin Header -->
 
         <main>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdlzyp0y8cdProedUchgA4dOohjBNaBBgUUbDG8iOPk9PeoFQ/viewform?embedded=true" width="640" height="2704" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <section class="encuesta">
+                <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdlzyp0y8cdProedUchgA4dOohjBNaBBgUUbDG8iOPk9PeoFQ/viewform?embedded=true"
+                width="640" height="2850" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </section>
+
+            <section class="answers">
+
+                <div id="charts" class="charts">
+                
+                    <iframe width="705" height="376" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRaRiqE1mzNFQINISbthEUXh1XPETz2y5UsoS27eewd3l_5BQ2IQfaCierZxOiEGPbatOWogqX9ef5B/pubchart?oid=108789477&amp;format=interactive"></iframe>
+            
+                    <iframe width="705" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRaRiqE1mzNFQINISbthEUXh1XPETz2y5UsoS27eewd3l_5BQ2IQfaCierZxOiEGPbatOWogqX9ef5B/pubchart?oid=432574129&amp;format=interactive"></iframe>
+
+                </div>
+
+                <button id="view" class="boton">Ver respuestas</button>
+                <button id="hide" class="boton hide">Ocultar respuestas</button>
+
+                <script src="/scripts/view.js"></script>
+
+            </section>
+            
         </main>
     </body>
 </html>
+
