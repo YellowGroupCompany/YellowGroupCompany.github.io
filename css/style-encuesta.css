@@ -6,7 +6,7 @@ main{
 }
 
 iframe{
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 4em;
     justify-self: center;
 }
@@ -19,6 +19,7 @@ iframe{
     display: grid;
     width: 70vw;
     justify-content: center;
+    justify-self: center;
 }
 
 .answers{
